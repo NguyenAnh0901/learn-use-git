@@ -7,6 +7,9 @@ namespace learn_use_git
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            int age = 20;
+            string name = "Anh";
+            Console.WriteLine($"{name} is {age} years old");
         }
     }
 }
