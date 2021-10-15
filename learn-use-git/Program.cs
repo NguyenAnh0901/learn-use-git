@@ -16,6 +16,7 @@ namespace learn_use_git
             foreach (var number in Enumerable.Range(1, 10)) numbers.Add(number);
             var r = numbers.Where(x => x % 2 == 0);
             foreach (var x in r) Console.WriteLine(x);
+            Console.WriteLine("Make from first branch");
         }
     }
 }
