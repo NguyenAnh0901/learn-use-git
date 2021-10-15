@@ -17,6 +17,7 @@ namespace learn_use_git
             var r = numbers.Where(x => x % 2 == 0);
             foreach (var x in r) Console.WriteLine(x);
             Console.WriteLine("Make from first branch");
+            Console.WriteLine("Make from fork");
         }
     }
 }
